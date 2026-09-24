@@ -12,8 +12,8 @@ cached knowledge might be stale and needs a live check before it's trusted.
 
 | Skill | Status | What it covers |
 |---|---|---|
-| [`power-apps-guardian/`](./power-apps-guardian) | ✅ Complete | Canvas app Power Fx — delegation, performance, licensing, error handling, column/data-type quirks, variable scope, offline/mobile sync, ALM/environments, component reuse, accessibility |
-| [`power-automate-guardian/`](./power-automate-guardian) | 🚧 Not started | Flow-specific pain points — Apply to Each concurrency, trigger thresholds/pagination, connection references in flows, throttling, retry policies |
+| [`power-apps-guardian/`](./power-apps-guardian) | Complete | Canvas app Power Fx — delegation, performance, licensing, error handling, column/data-type quirks, variable scope, offline/mobile sync, ALM/environments, component reuse, accessibility |
+| [`power-automate-guardian/`](./power-automate-guardian) | Not started | Flow-specific pain points — Apply to Each concurrency, trigger thresholds/pagination, connection references in flows, throttling, retry policies |
 
 Each skill is self-contained — its own `SKILL.md`, its own `references/`
 folder, its own README. They share the same design philosophy (see below)
