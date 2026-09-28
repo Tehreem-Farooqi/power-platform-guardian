@@ -12,8 +12,8 @@ cached knowledge might be stale and needs a live check before it's trusted.
 
 | Skill | Status | What it covers |
 |---|---|---|
-| [`power-apps-guardian/`](./power-apps-guardian) | Complete | Canvas app Power Fx — delegation, performance, licensing, error handling, column/data-type quirks, variable scope, offline/mobile sync, ALM/environments, component reuse, accessibility |
-| [`power-automate-guardian/`](./power-automate-guardian) | Not started | Flow-specific pain points — Apply to Each concurrency, trigger thresholds/pagination, connection references in flows, throttling, retry policies |
+| [`power-apps-guardian/`](./power-apps-guardian) |  Complete | Canvas app Power Fx — delegation, performance, licensing, error handling, column/data-type quirks, variable scope, offline/mobile sync, ALM/environments, component reuse, accessibility |
+| [`power-automate-guardian/`](./power-automate-guardian) |  Complete | Cloud flows — error handling/retry, connector file-locking (from a real production incident), trigger/action limits, concurrency/race conditions, ALM/ownership issues, and throttling/flow limits |
 
 Each skill is self-contained — its own `SKILL.md`, its own `references/`
 folder, its own README. They share the same design philosophy (see below)
@@ -53,5 +53,10 @@ See each skill's own README for details specific to that skill.
 
 ## Status
 
-Power Apps: complete. Power Automate: planned, not yet started — will
-follow the same category-by-category, research-first process once begun.
+Both skills complete: Power Apps (10 reference files) and Power Automate
+(6 reference files), each with their own verification protocol for
+volatile information (pricing, quotas, connector classifications, action
+limits). "Complete" means the planned category lists are built — not that
+either skill is exhaustive of everything Power Platform can throw at a
+project. Extend either one with new categories, following the same
+research-first process, as real issues surface.

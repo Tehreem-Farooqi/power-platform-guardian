@@ -97,7 +97,7 @@
   rather than quoting a fixed number as permanent.
 
 ## 5. Connection count practical limit (cross-reference)
-- See `performance.md` #11 for the ~30-connection-per-app guidance and the
+- See `performance.md` ("Additional real-world flags" section) for the ~30-connection-per-app guidance and the
   unresolved community debate over whether it counts distinct services or
   distinct connector instances. Relevant here too because more connections
   can mean more premium-connector exposure, not just more sign-in friction.
